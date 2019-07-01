@@ -1,7 +1,8 @@
 'use strict';
 
 function getDogImage() {
-  fetch('https://dog.ceo/api/https://dog.ceo/api/breeds/image/random/3')
+    const numOfImages = {userInput: $('.numOfPictures')};
+    fetch('https://dog.ceo/api/breeds/image/random/', numOfImages)
     .then(response => response.json())
     .then(responseJson => console.log(responseJson));
 }

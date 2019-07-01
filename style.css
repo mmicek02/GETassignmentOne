@@ -10,4 +10,6 @@
     max-width: 600px;
     margin: 0 auto;
   }
-  
+  .numOfPictures {
+      border: 1px solid black;
+  }
